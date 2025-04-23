@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="User\" />
+    <None Remove="User\Entities\" />
+    <None Remove="User\Entities\Implementations\" />
+    <None Remove="User\Entities\Factories\" />
+    <None Remove="User\Entities\Exceptions\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="User\" />
+    <Folder Include="User\Entities\" />
+    <Folder Include="User\Entities\Implementations\" />
+    <Folder Include="User\Entities\Factories\" />
+    <Folder Include="User\Entities\Exceptions\" />
+  </ItemGroup>
 </Project>
