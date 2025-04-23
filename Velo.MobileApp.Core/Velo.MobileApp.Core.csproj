@@ -12,6 +12,7 @@
     <None Remove="User\Entities\Implementations\" />
     <None Remove="User\Entities\Factories\" />
     <None Remove="User\Entities\Exceptions\" />
+    <None Remove="Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="User\" />
@@ -19,5 +20,6 @@
     <Folder Include="User\Entities\Implementations\" />
     <Folder Include="User\Entities\Factories\" />
     <Folder Include="User\Entities\Exceptions\" />
+    <Folder Include="Shared\" />
   </ItemGroup>
 </Project>
